@@ -22,7 +22,6 @@ def solution(n):
 
     return answer 
 
-
 -----Others-----
 def solution(n):
     num=set(range(2,n+1)) # 2부터 n+1까지의 집합

@@ -2,10 +2,9 @@
 
 -----Mine-----
 def solution(s):
-    answer = False
     if len(s) == 4 or len(s) == 6:
-        answer = s.isdigit()
-    return answer
+        return s.isdigit()
+    return False
 
 -----Others-----
 def alpha_string46(s):

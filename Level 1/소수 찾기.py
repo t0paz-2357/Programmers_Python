@@ -24,7 +24,8 @@ def solution(n):
 
 -----Others-----
 def solution(n):
-    num=set(range(2,n+1)) # 2부터 n+1까지의 집합
+    # 2부터 n+1까지의 집합
+    num=set(range(2,n+1))
 
     for i in range(2,n+1): # 2부터 n까지 반복문
         if i in num: # 만약 i가 num 집합에 있다면

@@ -1,0 +1,7 @@
+# https://programmers.co.kr/learn/courses/30/lessons/59035
+
+-----MySQL-----
+SELECT NAME, DATETIME FROM ANIMAL_INS ORDER BY ANIMAL_ID DESC
+
+-----Oracle-----
+SELECT NAME, DATETIME FROM ANIMAL_INS ORDER BY ANIMAL_ID DESC
